@@ -11,6 +11,7 @@
     tools:context="com.example.piotr_wanio.application.FindBeerActivity">
 
     <Spinner
+        android:entries="@array/beer_colors"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/color"
